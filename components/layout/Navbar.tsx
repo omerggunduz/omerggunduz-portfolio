@@ -13,8 +13,6 @@ const navLinks = [
 export function Navbar() {
   const pathname = usePathname();
 
-  if (pathname === "/") return null;
-
   return (
     <header className="sticky top-0 z-50 border-b border-neutral-800 bg-neutral-950/80 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
