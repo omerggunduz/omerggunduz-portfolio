@@ -6,7 +6,7 @@ type Props = { games: GameSummary[] };
 export function GameGrid({ games }: Props) {
   if (!games.length) {
     return (
-      <p className="py-20 text-center text-neutral-500">No games found yet. Check back soon!</p>
+      <p className="py-20 text-center text-neutral-500">No projects yet — check back soon.</p>
     );
   }
 
